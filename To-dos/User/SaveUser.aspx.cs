@@ -14,7 +14,7 @@ namespace To_dos.User
         {
             if (!IsPostBack)
             {
-                txtPassword.Attributes["placeholder"] = "Al menos 1 Mayúscula, un número un caracter especial y 8 de longitud mínima";
+               // txtPassword.Attributes["placeholder"] = "Al menos 1 Mayúscula, un número un caracter especial y 8 de longitud mínima";
             }
 
         }
