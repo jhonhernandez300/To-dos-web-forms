@@ -21,7 +21,7 @@ namespace Business
 
         public void RegisterUser(string userName, string email, string plainPassword)
         {
-            var user = new User
+            var user = new UserApplication
             {
                 UserName = userName,
                 Email = email,

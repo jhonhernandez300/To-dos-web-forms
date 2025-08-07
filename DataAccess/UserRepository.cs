@@ -17,9 +17,9 @@ namespace DataAccess
             _connectionString = connectionString;
         }
 
-        public void InsertUser(User user)
+        public void InsertUser(UserApplication user)
         {
-            string sql = @"INSERT INTO Users (UserName, Email, UserPasswordHash, CreatedAt, IsActive)
+            string sql = @"INSERT INTO UserApplication (UserName, Email, UserPasswordHash, CreatedAt, IsActive)
                        VALUES (@UserName, @Email, @UserPasswordHash, @CreatedAt, @IsActive)";
 
             using (var conn = new SqlConnection(_connectionString))
