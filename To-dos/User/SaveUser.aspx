@@ -3,12 +3,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<<<<<<< Updated upstream
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-
-<link href="~/Content/SaveUser.css" rel="stylesheet" />
-=======
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Registro de Usuario</title>
 
@@ -39,7 +33,6 @@
             document.getElementById("reqLength").className = length ? "valid" : "invalid";
         }
     </script>
->>>>>>> Stashed changes
 </head>
 
 <body>
